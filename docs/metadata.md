@@ -23,11 +23,11 @@ A .csv version of the Metadata template can be downloaded from the following lin
 
 The Template contains example data to assist in complete the form. Please delete this data before uploading via the Ingest system.
 
+![metadata template](./assets/metadata_template_image.png)
+
 ## Field Guidelines
 
 The following section provides detailed guidance for each field in the metadata template including descriptions and examples.
-
-![metadata template](./assets/metadata_template_image.png)
 
 ### __Filename__
 Enter name of file. Please include only one filename per row, including the file extension.  If you are depositing shapefiles or other objects where multiple files make up a single item, please include only one filename. 
