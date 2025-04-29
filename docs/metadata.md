@@ -30,7 +30,9 @@ The Template contains example data to assist in completing the form. Please dele
 The following section provides detailed guidance for each field in the metadata template including descriptions and examples. The fields denoted with a * are required fields
 
 ### __Filename *__
-Enter name of file. Please include only one object per row, including the file extension in lowercase.  If you are depositing shapefiles or other objects where multiple files make up a single item, please include only one object per row. Further details are provided below under 'Multiple files per object'. 
+Enter name of file. Please include only one object per row, including the file extension in lowercase. Filenames must only contain alpha-numeric characters (a-z, A-Z, 0-9), hyphens (-), underscores (_) or forward slashes (/).
+
+If you are depositing shapefiles, or other objects where multiple files make up a single item, please include only one object per row. Further details are provided below under 'Multiple files per object'. 
 
 * Example - *012345_Archaeological_Site_London_Report.pdf*
 * Format - Free text field
@@ -103,4 +105,14 @@ For "Geophysics" data type only. Enter the total area of the geophysical survey 
 
 ## Multiple files per object
 
-In some instances you may wish to upload a single object that contains multiple files, such as a shapefile. If this is the case please add all files to the upload folder and include only one . All files must contain the same filename for the Ingest to recognise them as a single object. An example is listed in the template, which can be downloaded above.
+In some instances you may wish to upload a single object that contains multiple files, such as a shapefile. In this case please add all files to the upload folder and include only one object (or row) in the metadata template. The Ingest system will recognise all of these files as a single object, but only if all files contain the same filename. 
+
+For example, a shapefile object may consist of the following files:
+
+* example.shp
+* example.shx
+* example.dbf
+* example.sbn
+* example.prj
+
+However, all of these files can be listed as a single row in the metadata template, using the filename 'example.shp'. This ensures all files related to an object are ingested together and contain the same metadata. An example is listed in the template, which can be downloaded above.
