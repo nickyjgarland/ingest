@@ -39,17 +39,21 @@ The easiest method for depositing your files is to save all of your files within
 Your fieldwork project is seperated into a series of subfolders, that reflect the types of files that are to be deposited. For example:
 
 project/
+
     └─ gis/
+
     └─ report/
+
     └─ photos/
+    
     └─ post-ex/
 
 These folders can be accommodated in the metadata template by pre-fixing the filename with the corresponding subfolder name. For example: 
 
-*gis/Shapefile.shp*
-*report/012345_Archaeological_Site_London_Report.pdf*
-*photos/Photograph_001.jpg*
-*post-ex/012345_EnviroDatabase.accdb*
+* *gis/Shapefile.shp*
+* *report/012345_Archaeological_Site_London_Report.pdf*
+* *photos/Photograph_001.jpg*
+* *post-ex/012345_EnviroDatabase.accdb*
 
 Here's an example of correctly referenced subfolder files in the metadata template:
 
