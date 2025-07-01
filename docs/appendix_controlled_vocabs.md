@@ -2,7 +2,7 @@
 
 ## [Metadata Spreadsheet Template](metadata.md)
 
-### Type
+### Data Category
 
 * Audiovisual
 * Computed Tomography (CT) Scanning

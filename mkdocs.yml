@@ -58,4 +58,5 @@ copyright: Copyright &copy; 2025 - Archaeology Data Service
 nav:
   - Home: index.md
   - Metadata Template: metadata.md
+  - Additional Metadata: additional.md
   - Appendix 1 - Controlled Vocabularies: appendix_controlled_vocabs.md
